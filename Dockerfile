@@ -7,9 +7,6 @@
 FROM ubuntu
 MAINTAINER The kt.com Project <ybahn001@gmail.com>
 
-
-
-
 COPY ./install.sh /
 RUN chmod 755 /install.sh
 COPY ./start.sh /
